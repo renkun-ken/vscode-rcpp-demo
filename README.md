@@ -38,7 +38,7 @@ Then you may add the following path to `includePath`:
 ${env:HOME}/R/x86_64-pc-linux-gnu-library/3.6/RcppArmadillo/include
 ```
 
-For more code editing features, please visit [https://code.visualstudio.com/docs/cpp/cpp-ide](https://code.visualstudio.com/docs/cpp/cpp-ide).
+For more code editing features, please visit [Edit C++ in Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-ide).
 
 ### Debugging
 
