@@ -8,10 +8,11 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
+      "program": "/usr/lib/R/bin/exec/R",
       "args": [
         "--vanilla",
-        "-f",
-        "test.R"
+        "-e",
+        "devtools::load_all();devtools::test()"
       ],
       "stopAtEntry": false,
       "envFile": "${workspaceFolder}/.vscode/.env",
@@ -26,9 +27,6 @@
         }
       ],
       "preLaunchTask": "debug",
-      "linux": {
-        "program": "/usr/lib/R/bin/exec/R"
-      },
       "osx": {
         "program": "/Library/Frameworks/R.framework/Resources/bin/exec/R"
       }

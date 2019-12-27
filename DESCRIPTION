@@ -1,0 +1,18 @@
+Package: VSCodeRcppDemo
+Title: Writing and Debugging Rcpp in VSCode
+Version: 0.1
+Authors@R: person("Kun", "Ren", email = "renkun@outlook.com", role = c("aut", "cre"))
+Description: A demo package to demonstrate writing and debugging Rcpp in VSCode
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: TRUE
+Suggests: testthat
+RoxygenNote: 7.0.2
+Roxygen: list(markdown = TRUE)
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+SystemRequirements: C++11

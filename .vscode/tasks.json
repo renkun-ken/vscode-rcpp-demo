@@ -6,7 +6,8 @@
     {
       "label": "debug",
       "type": "shell",
-      "command": "Rscript ${workspaceFolder}/.vscode/debug.R"
+      "command": "Rscript ${workspaceFolder}/.vscode/debug.R",
+      "problemMatcher": []
     }
   ]
 }
