@@ -48,6 +48,7 @@ Since `R` is not a binary executable but a bash script in which required environ
 we also need to setup those environment variables for the debugger to run the R session.
 
 `.vscode/debug.R` and `.vscode/tasks.json` are the code to capture those environment variables and to run before debugging.
+You may need, initially, to run twice in debugging mode before environment variables are properly picked up in `.vscode/.env`
 
 `.vscode/launch.json` defines the debugger configuration which in this repo works for R 3.6 under Ubuntu 16.04 or above.
 
