@@ -28,7 +28,8 @@
       ],
       "preLaunchTask": "debug",
       "osx": {
-        "program": "/Library/Frameworks/R.framework/Resources/bin/exec/R"
+        "program": "/Library/Frameworks/R.framework/Resources/bin/exec/R",
+        "MIMode": "lldb"
       }
     }
   ]

@@ -18,6 +18,7 @@
                 "${workspaceFolder}/**",
                 "/Library/Frameworks/R.framework/Versions/3.6/Resources/library/Rcpp/include",
                 "/Library/Frameworks/R.framework/Resources/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
                 "/usr/local/include"
             ],
             "defines": [],
