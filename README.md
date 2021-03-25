@@ -1,6 +1,6 @@
 # vscode-rcpp-demo
 
-This project is a minimal example of writing and debugging [Rcpp]() in VSCode.
+This project is a minimal example of writing and debugging [Rcpp](http://www.rcpp.org/) in VSCode.
 
 For writing and debugging [cpp11](https://cpp11.r-lib.org) in VSCode, you may
 go to [vscode-cpp11-demo](https://github.com/renkun-ken/vscode-cpp11-demo).
