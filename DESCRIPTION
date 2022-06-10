@@ -15,4 +15,3 @@ LinkingTo:
     Rcpp
 Imports: 
     Rcpp
-SystemRequirements: C++11
